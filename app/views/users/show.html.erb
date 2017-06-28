@@ -13,7 +13,7 @@
 <% if @micropost %>
   <p>
     <strong>Content:</strong>
-    <%= @micropost.content %>
+    <%= @user.microposts.first.content  %>
   </p>
 <% end %>
 
